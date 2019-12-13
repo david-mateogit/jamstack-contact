@@ -43,7 +43,7 @@ const Form = () => {
       method: 'POST',
       body: JSON.stringify(state),
     })
-    .then(response => response.json())
+      .then(response => response.json())
       .then(response => {
         console.log(response);
         setStatus('SUCCESS');

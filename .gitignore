@@ -1,6 +1,7 @@
 node_modules
 .env*
 !.env.EXAMPLE
+.env.EXAMPLE
 public
 .cache
 
